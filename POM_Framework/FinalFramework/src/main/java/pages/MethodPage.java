@@ -96,6 +96,7 @@ public class MethodPage {
 		{							
 			SearchBox.sendKeys("Tylosin Tartrate Compounded"); //search in search box		
 			SearchIcon.click(); //click on search icon 
+			print("this will search the item");
 		}
 		
 		public void SelectItem() throws InterruptedException
